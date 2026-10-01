@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+
+# Environment variables (NEVER push this!)
+.env
+.env.local
+.env.production
+
+# IDE folders
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
