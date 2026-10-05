@@ -6,6 +6,7 @@ import policyRoutes from './policy.routes.js';
 import licenseRoutes from './license.routes.js';
 import requestRoutes from './request.routes.js';
 import waitlistRoutes from './waitlist.routes.js';
+import userRoutes from './user.routes.js';
 
 const router = Router();
 
@@ -20,6 +21,7 @@ router.use('/policies', policyRoutes);
 router.use('/licenses', licenseRoutes);
 router.use('/requests', requestRoutes);
 router.use('/waitlist', waitlistRoutes);
+router.use('/users', userRoutes);
 // Next batch: /users, /notifications, /audit-logs, /dashboard, /packages, /reports
 
 export default router;
